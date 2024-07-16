@@ -18,7 +18,7 @@ const HomeScreen = () => {
     }
     setLoading(true);
     setError('');
-    setWeather(null); // Clear previous weather data
+    setWeather(null); 
     try {
       const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_KEY}`);
       setWeather(response.data);
