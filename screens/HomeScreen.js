@@ -4,7 +4,7 @@ import axios from 'axios';
 import SearchBar from '../components/SearchBar';
 import WeatherDisplay from '../components/WeatherDisplay';
 
-const API_KEY = '6aefccb0ee35ee710247c45ed7cbd503'; // Replace with your OpenWeather API key
+const API_KEY = '6aefccb0ee35ee710247c45ed7cbd503';
 
 const HomeScreen = () => {
   const [weather, setWeather] = useState(null);
